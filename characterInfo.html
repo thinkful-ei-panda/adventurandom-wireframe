@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body class="wrapper">
+    <div class="container logo" style="text-align: center;">Logo</div>
+    <div class="container centered tutorial">
+      <p>
+        This is where you enter your desired character paramters:
+      </p>
+      <fieldset>
+          <legend>Character Info</legend>
+          <form>
+          <form action="/action_page.php">
+            <label for="name">Character Name:</label>
+            <input type="text" required></input>
+            <label for="class">Choose a class:</label>
+            <select id="class" name="class" required>
+              <option value="bard">Bard</option>
+              <option value="cleric">Cleric</option>
+              <option value="barbarian">Barbarian</option>
+              <option value="wizard">Wizard</option>
+            </select>
+          </form>
+          <label>Level:</label>
+          <input type="number" required></input>
+      </form>
+    </fieldset>
+    </div>
+    <div class="container centered begin" style="text-align: center;">
+      <button><a href="/story.html">Submit!</a></button><br/>
+    </div>
+  </body>
+</html>

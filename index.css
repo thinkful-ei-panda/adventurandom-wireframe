@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container {
+    border: 1px black solid;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.item {
+    flex: 1;
+
+}
