@@ -7,17 +7,18 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body class="wrapper">
-    <div class="container logo" style="text-align: center;">Logo</div>
-    <div class="container centered tutorial">
+    <div class="container logo" style="text-align: center;"><img src="adventurandom_logo_mobile.png" alt="Adventurandom logo" width="500px"></img></div>
+    <div class="container centered charForm" style="min-height: 300px;">
       <p>
         This is where you enter your desired character paramters:
       </p>
       <fieldset>
           <legend>Character Info</legend>
           <form>
-          <form action="/action_page.php">
             <label for="name">Character Name:</label>
-            <input type="text" required></input>
+            <input type="text" required></input></br>
+            <label>Level:</label>
+            <input type="number" required></input></br>
             <label for="class">Choose a class:</label>
             <select id="class" name="class" required>
               <option value="bard">Bard</option>
@@ -25,13 +26,11 @@
               <option value="barbarian">Barbarian</option>
               <option value="wizard">Wizard</option>
             </select>
-          </form>
-          <label>Level:</label>
-          <input type="number" required></input>
       </form>
     </fieldset>
     </div>
     <div class="container centered begin" style="text-align: center;">
+      <a href="adventureInfo.html" onclick="window.open('adventureInfo.html', '_self');"><button>Back</button></a>
       <a href="story.html" onclick="window.open('story.html', '_self');"><button>Next</button></a>
     </div>
   </body>
